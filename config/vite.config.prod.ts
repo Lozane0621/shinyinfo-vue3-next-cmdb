@@ -8,7 +8,6 @@ import configImageminPlugin from './plugin/imagemin';
 export default mergeConfig(
   {
     mode: 'production',
-    base:'/shinyinfo-vue3-next-cmdb/',
     plugins: [
       configCompressPlugin('gzip'),
       configVisualizerPlugin(),

@@ -6,6 +6,7 @@ import svgLoader from 'vite-svg-loader';
 import configArcoStyleImportPlugin from './plugin/arcoStyleImport';
 
 export default defineConfig({
+  base: '/shinyinfo-vue3-next-cmdb/',
   plugins: [
     vue(),
     vueJsx(),
